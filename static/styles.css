@@ -291,38 +291,13 @@ body {
 }
 
 .contact-wrapper .contactForm .formBox .inputBox input:focus ~ span,
-.contact-wrapper .contactForm .formBox .inputBox textarea:focus ~ span {
-    transform: translateY(-25px);
-    font-size: 15px;
-    font-weight: 400;
-    color: lightseagreen;
-    letter-spacing: 1px;
-}
-
+.contact-wrapper .contactForm .formBox .inputBox textarea:focus ~ span,
 .contact-wrapper .contactForm .formBox .inputBox input:valid ~ span,
 .contact-wrapper .contactForm .formBox .inputBox textarea:valid ~span {
     transform: translateY(-25px);
     font-size: 15px;
     font-weight: 400;
     color: lightseagreen;
-    letter-spacing: 1px;
-}
-
-.contact-wrapper .contactForm .formBox .inputBox input:focus:required:invalid ~ span,
-.contact-wrapper .contactForm .formBox .inputBox textarea:focus:required:invalid ~span {
-    transform: translateY(-25px);
-    font-size: 15px;
-    font-weight: 400;
-    color: red;
-    letter-spacing: 1px;
-}
-
-.contact-wrapper .contactForm .formBox .inputBox input:focus:required:empty ~ span,
-.contact-wrapper .contactForm .formBox .inputBox textarea:focus:required:empty ~span {
-    transform: translateY(-25px);
-    font-size: 15px;
-    font-weight: 400;
-    color: black;
     letter-spacing: 1px;
 }
 
@@ -398,4 +373,3 @@ body {
     list-style: none;
     margin-left: 10px;
 }
-
